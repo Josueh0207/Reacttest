@@ -1,6 +1,6 @@
 import logo from './logo.svg';
-//import './App.css';
-import stateM from './StateMachine.js';
+import './App.css';
+import './StateMachine.js';
 
 function App() {
   return (
@@ -29,8 +29,6 @@ function App() {
           </div>
         </div>
       </body>
-      <script src="StateMachine.js">
-      </script>
     </html>
   );
 }
