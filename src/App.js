@@ -29,7 +29,6 @@ function App() {
           </div>
         </div>
       </body>
-      <StateMachine />
     </html>
   );
 }
