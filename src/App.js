@@ -3,22 +3,31 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I think i finally got it!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <html>
+      <head>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <title>ChatBox in iFrame</title>
+      </head>
+      <body>
+        <div id="chat-circle">
+          <i class="material-icons">Chatbot</i>
+        </div>
+
+        <div class="chat-box">
+          <div class="chat-box-header">
+            ChatBot
+            <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+          </div>
+          <div class="chat-box-body">
+            <div class="chat-logs">
+              <div id="message"></div>
+              <div id="button" class="buttons"></div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
   );
 }
 
